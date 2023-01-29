@@ -7,12 +7,12 @@ This simple Bash script reconfigures the network interface for Kali Linux on Vir
 ```
 cd /opt
 
-git clone https://github.com/roninone/Network-Reset
+git clone https://github.com/baldwinT12/KaliLinux_network_reset.git
 ```
 
 ### Create a Symbolic Link
 ```
 cd /bin
 
-ln -s /opt/Network-Reset/network_reset.sh network
+ln -s /opt/Network-Reset/network-KL-reset.sh network
 ```
